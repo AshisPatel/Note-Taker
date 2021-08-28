@@ -1,0 +1,29 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jest": "^27.1.0",
+    "nanoid": "^3.1.25"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshisPatel/Note-Taker-Week-11-Challenge.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/AshisPatel/Note-Taker-Week-11-Challenge/issues"
+  },
+  "homepage": "https://github.com/AshisPatel/Note-Taker-Week-11-Challenge#readme"
+}

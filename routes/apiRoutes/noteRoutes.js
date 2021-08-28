@@ -6,7 +6,7 @@ const { nanoid } = require('nanoid');
 const router = require('express').Router();
 
 router.get('/notes', (req, res) => {
-    console.log(notes);
+    res.json(notes); 
 })
 
 router.post('/notes', (req, res) => {

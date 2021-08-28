@@ -1,68 +1,19 @@
-[
-  [
-    [
-      [
-        [
-          [
-            [
-              [
-                {
-                  "title": "Test Title",
-                  "text": "Test text"
-                },
-                {
-                  "title": "Important Title",
-                  "text": "equally important text",
-                  "id": "mjM_Ajn0tZ"
-                }
-              ],
-              {
-                "title": "Important Title",
-                "text": "equally important text",
-                "id": "ugV13dDumu"
-              },
-              {
-                "title": "Important Title",
-                "text": "",
-                "id": "GZMlCu1SgA"
-              },
-              {
-                "title": "Important Title",
-                "id": "rIQqXI5I3j"
-              }
-            ],
-            {
-              "title": "Important Title",
-              "id": "xG1JjA_epH"
-            },
-            {
-              "title": "Important Title",
-              "id": "ra0wZefVNA"
-            }
-          ],
-          {
-            "title": "Important Title",
-            "id": "gl34q6Ykg3"
-          }
-        ],
-        {
-          "title": "Important Title",
-          "id": "Nao36PI6cu"
-        },
-        {
-          "title": "Important Title",
-          "id": "mJxutEg-B2"
-        },
-        {
-          "id": "Vgxo-w76At"
-        }
-      ],
-      {}
-    ],
+{
+  "notesArray": [
     {
-      "title": "Title 1",
-      "text": "53",
-      "id": "BrNnV5l4Hl"
+      "title": "Important Note",
+      "text": "You ain't got a clue how important this is",
+      "id": "RANDOMSTUFF"
+    },
+    {
+      "title": "I'm testing stuff",
+      "text": "Oh for real?",
+      "id": "ICeNAlMZB6"
+    },
+    {
+      "title": "I'm Seriously Testing Stuff",
+      "text": "Damn that's pretty cool",
+      "id": "5kTLdZdgFF"
     }
   ]
-]
+}

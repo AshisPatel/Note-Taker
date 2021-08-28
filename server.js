@@ -16,8 +16,9 @@ app.use(express.urlencoded({ extended:true }));
 
 app.use(express.json());
 
-app.use('/', htmlRoutes); 
+// Order of these matters???
 app.use('/api', apiRoutes); 
+app.use('/', htmlRoutes); 
 
 // Sets port to port required by the hosting service (heroku) or 9001 if no required
 

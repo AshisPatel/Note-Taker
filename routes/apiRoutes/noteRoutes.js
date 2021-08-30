@@ -1,6 +1,6 @@
 // Grabs our array of note objects
 const notes = require('../../db/db.json'); 
-const {createNewNote, validateNote} = require('../../lib/notes'); 
+const {createNewNote, validateNote, deleteNote} = require('../../lib/notes'); 
 const { nanoid } = require('nanoid'); 
 
 const router = require('express').Router();
@@ -19,5 +19,11 @@ router.post('/notes', (req, res) => {
     }
     
 })
+
+router.delete('/notes/:id', (req,res) => {
+    const newNotes = deleteNote(req.params.id, notes); 
+    res.json(newNotes); 
+    console.log(newNotes); 
+});
 
 module.exports = router; 

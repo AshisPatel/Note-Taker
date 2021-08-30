@@ -83,9 +83,6 @@ const handleNoteDelete = (e) => {
   e.stopPropagation();
 
   const note = e.target;
-  const noteListItemEl = note.closest('li'); 
-  console.log(noteListItemEl); 
-  noteListItemEl.remove();
   
   const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).id;
 

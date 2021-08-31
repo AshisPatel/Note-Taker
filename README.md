@@ -4,6 +4,14 @@
   
   Note Taker is a web application that is hosted via heroku! You can visit the app by following the website link in the *Website* section. The app lets you add and delete notes. All of this data is stored on a server that is connected to the front-end using node.js and express.js. 
 
+  <h3>Technologies Used</h3>
+  <ul>
+    <li>Node.js</li>
+    <li>Express.js</li>
+    <li>Nanoid (for unique ID generation)</li>
+    <li>Special thanks to UTA for providing the front end code for this assignment</li>
+  </ul>
+
   <h2>Table of Contents</h2>
  <ul>
   <li><a href="#usage">Usage</a></li>

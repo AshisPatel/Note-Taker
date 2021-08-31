@@ -8,7 +8,7 @@
  <ul>
   <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#website">Website</a><li>
+    <li><a href="#website">Website</a></li>
   <li><a href="#questions">Questions</a></li>
  </ul>
 

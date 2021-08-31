@@ -2,6 +2,8 @@
   <image src='https://img.shields.io/badge/license-MIT-green.svg' />
   <h2>Description</h2>
   
+   ![Viewing, adding, and deleting notes on the Note Taker application](https://github.com/AshisPatel/Note-Taker-Week-11-Challenge/blob/main/noteTakerPreview.gif)
+
   Note Taker is a web application that is hosted via heroku! You can visit the app by following the website link in the *Website* section. The app lets you add and delete notes. All of this data is stored on a server that is connected to the front-end using node.js and express.js. 
 
   <h3>Technologies Used</h3>

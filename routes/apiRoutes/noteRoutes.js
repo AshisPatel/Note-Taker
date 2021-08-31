@@ -2,7 +2,6 @@
 let notes = require('../../db/db.json'); 
 const {createNewNote, validateNote, deleteNote} = require('../../lib/notes'); 
 const { nanoid } = require('nanoid'); 
-const fs = require('fs'); 
 
 const router = require('express').Router();
 

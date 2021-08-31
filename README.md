@@ -14,6 +14,10 @@
     <li>Special thanks to UTA for providing the front end code for this assignment</li>
   </ul>
 
+   <h3>Functionality</h3>
+   
+   The front-end functionality was provided by UTA. The back-end functionality was setup using express.js, and a few additional node packages. There are five API calls that are accounted for, three GETS, one POST, and one DELETE. The first GET takes the user to the homepage at the / route request. The second GET will retrieve the notes array stored in the db.json file on the server given the request for /api/notes. The third GET will catch any other /* routes and return the user to the homepage. The POST request will take the note title and note text and package it as an object for the server to read. Once the server receives the object, it generates a unique id using nanoid and then stores it in the db.json file. The DELETE request will take the unique ID of the note that the user would like to delete and sends it to the server. The stored object is found in the notes array of the db.json file and deleted before the db.json is updated and then sent back to the front-end. 
+
   <h2>Table of Contents</h2>
  <ul>
   <li><a href="#usage">Usage</a></li>
